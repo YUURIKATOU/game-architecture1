@@ -11,5 +11,6 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 	while (DxLib::ProcessMessage() == 0) {
 		DxLib::ScreenFlip();
 	}
+	DxLib_End();
 	return 0;
 }
